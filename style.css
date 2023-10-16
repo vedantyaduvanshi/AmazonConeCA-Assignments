@@ -1,0 +1,503 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar1{
+    height: 60px;
+    width: 100%;
+    background-color: #131921;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+#logoOfAmazon{
+    height: 60px;
+    width: 125px;
+    margin-left: 12px;
+    margin-top: 7px;
+}
+
+
+#DeliverTo{
+    height: 100%;
+    width: 130px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    color: white;
+}
+
+
+#DelivererName{
+    font-family: 'Cabin', sans-serif;
+    font-size: 13px;
+    opacity: 0.7;
+    margin-left: 23px;
+}
+
+
+#DeliveryAddress{
+    font-family: 'Cabin', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 23px;
+}
+
+
+#DeliverTo img{
+    position: absolute;
+    height: 20px;
+    margin-top: 10px;
+}
+
+
+#SearchBarAndAll{
+    height: 43px;
+    width: 850px;
+    /* border: 1px solid white; */
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#CategoriesinSearchBar{
+    height: 100%;
+    width: 50px;
+    background-color: #e7e7e6;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #666767;
+}
+
+#CategoriesinSearchBar span{
+    font-family: 'Cabin', sans-serif;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+
+#CategoriesinSearchBar img{
+    position: absolute;
+    height: 24px;
+    margin-left: 20px;
+}
+
+#CategoriesinSearchBar:hover{
+    color: #000000;
+    cursor: pointer;
+}
+
+
+#SearchBarAndAll input{
+    height: 100%;
+    width: 750px;
+    outline: none;
+    border: none;
+    padding: 6px;
+    font-size: 16px;
+}
+
+#SearchBarSearchButton{
+    height: 100%;
+    width: 50px;
+    background-color: #febd69;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#SearchBarSearchButton:hover{
+    background-color: #f7ac4b;
+    cursor: pointer;
+
+}
+
+#SearchBarSearchButton img{
+    height: 20px;
+}
+
+
+#LanguageAndFlag{
+    height: 40px;
+    width: 70px;
+    /* border: 1px solid red; */
+    margin-left: 23px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+#IndianFlag{
+   height: 15px;
+}
+
+
+#ChangeCountry{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    font-weight: bold;
+    font-family: Calibri;
+}
+
+
+#ChangeCountry img{
+    height: 25px;
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 6px;
+}
+
+
+#NameANdAccount{
+    height: 50px;
+    width: 125px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    color: white;
+    font-family: Calibri;
+}
+
+#NameANdAccount img{
+    height: 25px;
+    position: absolute;
+    margin: 16px 99px;
+}
+
+#NameHello{
+
+ font-size: 14px;
+}
+
+#AccountInfo{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#ReturnOrder{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    width: 80px;
+    /* border: 1px solid red; */
+    padding-top: 5px;
+    color: white;
+    font-family: Calibri;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#Return{
+    font-size: 14px;
+}
+
+#Order{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+#CartAmazon{
+    height: 50px;
+    width: 80px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    padding-top: 8px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+#CartAmazon img{
+   height: 30px;
+}
+
+#CartAmazon span{
+    color: white;
+    font-family: Calibri;
+    font-weight: bold;
+    position: absolute;
+    font-size: 16px;
+    margin: 13px 39px;
+}
+
+
+#navbar2{
+    background-color: #222f3f;
+    height: 40px;
+    width: 100%;
+    padding-left: 2px;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+    color: white;
+    font-family: Calibri;
+}
+
+
+#navbar2 div{
+    cursor: pointer;
+}
+
+
+#coverPage{
+    /* border: 2px solid red; */
+    height: 700px;
+    margin: auto;
+    width: 98%;
+    background-image: url("./assets/background\ picture.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+}
+
+
+#ItemsForSale{
+    height: 380px;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-bottom: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+#items1{
+    height: 380px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#titleofItemBox1{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    font-size: 24px;
+    font-family: Calibri;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#ItemsForSaleinBox1{
+    height: 270px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+#FirstLine{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+#FirstLine div{
+     display: flex;
+     flex-direction: column;    
+}
+
+#FirstLine div img{
+    height: 100px;
+}
+
+#FirstLine div span{
+    font-family: Calibri;
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+#Moreon1{
+  position: absolute;
+  color: #258497;
+  bottom: 10px;
+  left: 20px;
+  font-family: Calibri;
+}
+
+#items2{
+    height: 380px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#titleofItemBox2{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    font-size: 24px;
+    font-family: Calibri;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#ItemsForSaleinBox1{
+    height: 270px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+#FirstLine{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+#FirstLine div{
+     display: flex;
+     flex-direction: column;    
+}
+
+#FirstLine div img{
+    height: 100px;
+}
+
+#FirstLine div span{
+    font-family: Calibri;
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+#MoreOn{
+    position: absolute;
+    color: #258497;
+    bottom: 10px;
+    left: 20px;
+    font-family: Calibri;
+  }
+
+
+#items3{
+    height: 380px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+}
+#titleofItemBox3{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    font-size: 22px;
+    font-family: Calibri;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#items3 img{
+   width: 310px;
+   margin: 10px auto;
+}
+#MoreOn3{
+    position: absolute;
+    color: #258497;
+    bottom: 5px;
+    left: 20px;
+    font-family: Calibri;
+  }
+
+#items4{
+    height: 380px;
+    width: 350px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+#item4FirstDiv{
+    height: 130px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#titleofItemBox4{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    font-size: 22px;
+    font-family: Calibri;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#item4FirstDiv button{
+    background-color: #ffd915;
+    height: 35px;
+    width: 85%;
+    border-color: transparent;
+    border-radius: 8px;
+    margin: auto;
+    font-family: Calibri;
+    font-weight: bolder;
+}
+
+
+#items4 img{
+   width: 300px;
+   margin: auto;
+
+}
